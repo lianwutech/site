@@ -23,11 +23,9 @@ end
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.name = "solutions"
-  blog.prefix = "solutions"
-
-  blog.permalink = "{title}.html"
+  blog.permalink = "solutions/{title}.html"
   # Matcher for blog source files
-  blog.sources = "solutions/{title}.html"
+  blog.sources = "solutions/{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
   # blog.layout = "layout"
   # blog.summary_separator = /(READMORE)/
@@ -45,6 +43,14 @@ activate :blog do |blog|
   # blog.per_page = 10
   # blog.page_link = "page/{num}"
 
+end
+
+activate :blog do |blog|
+  blog.name = "news"
+  blog.permalink = "news/{title}.html"
+  blog.sources = "news/{year}-{month}-{day}-{title}.html"
+  blog.tag_template = "tag.html"
+  blog.calendar_template = "calendar.html"
 end
 
 activate :directory_indexes
@@ -107,16 +113,16 @@ set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
