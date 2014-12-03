@@ -1,6 +1,6 @@
 ---
 layout: layouts/layout.erb
-title: 设备联网解决方案 - 莲雾科技
+title: 设备联网解决方案
 ---
 
 # 设备联网解决方案

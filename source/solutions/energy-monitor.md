@@ -1,6 +1,6 @@
 ---
 layout: layouts/layout.erb
-title: 能源监测解决方案 - 莲雾科技
+title: 能源监测解决方案
 ---
 
 # 企业能源监测管理系统方案

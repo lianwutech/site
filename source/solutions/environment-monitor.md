@@ -1,6 +1,6 @@
 ---
 layout: layouts/layout.erb
-title: 环境监控解决方案 - 莲雾科技
+title: 环境监控解决方案
 ---
 # 环境监控解决方案
 

@@ -3,13 +3,13 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   site_url = "http://blog.url.com/"
   xml.title "Blog Name"
   xml.subtitle "Blog subtitle"
-  xml.id URI.join(site_url, blog("solutions").options.prefix.to_s)
-  xml.link "href" => URI.join(site_url, blog("solutions").options.prefix.to_s)
+  xml.id URI.join(site_url, blog("blogs").options.prefix.to_s)
+  xml.link "href" => URI.join(site_url, blog("blogs").options.prefix.to_s)
   xml.link "href" => URI.join(site_url, current_page.path), "rel" => "self"
-  xml.updated(blog("solutions").articles.first.date.to_time.iso8601) unless blog("solutions").articles.empty?
+  xml.updated(blog("blogs").articles.first.date.to_time.iso8601) unless blog("blogs").articles.empty?
   xml.author { xml.name "blog Author" }
 
-  blog("solutions").articles[0..5].each do |article|
+  blog("blogs").articles[0..5].each do |article|
     xml.entry do
       xml.title article.title
       xml.link "rel" => "alternate", "href" => URI.join(site_url, article.url)
