@@ -1,6 +1,6 @@
 ---
 layout: layouts/layout.erb
-title: 联系我们
+title: 联系我们 - 莲雾科技
 ---
 
 ## 联系方式

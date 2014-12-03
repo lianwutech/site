@@ -1,6 +1,6 @@
 ---
 layout: layouts/layout.erb
-title: 关于我们
+title: 关于我们 - 莲雾科技
 ---
 ## 公司简介
 
