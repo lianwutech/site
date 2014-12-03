@@ -1,290 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!-- Always force latest IE rendering engine or request Chrome Frame -->
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+<!-- Use title if it's in the page YAML frontmatter -->
+<title>莲雾科技 物联网综合技术服务商</title>
+
+<link href="stylesheets/normalize-6197e73d.css" rel="stylesheet" type="text/css" /><link href="stylesheets/all-d55a726c.css" rel="stylesheet" type="text/css" />
+<script src="javascripts/all-f7a8d3d4.js" type="text/javascript"></script>
+</head>
+
+<body class="feed">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">莲雾科技</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/">首页<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">产品服务<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="/products/iot-platform">物联网云平台</a></li>
+          <li><a href="/products/distribute-access-server">分布式接入服务器</a></li>
+          <li><a href="/products/distribute-access-gateway">分布式接入网关</a></li>
+          <li><a href="/products/data-analysis-service">物联网数据分析服务</a></li>
+        </ul>
+        </li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">方案中心<span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="/solutions/device-access">设备联网解决方案</a></li>
+          <li><a href="/solutions/energy-monitor">能源监测解决方案</a></li>
+          <li><a href="/solutions/environment-monitor">环境监控解决方案</a></li>
+          <li><a href="/solutions/smart-agriculture">智慧农业解决方案</a></li>
+        </ul>
+        </li>
+        <li><a href="/news">新闻中心</a></li>
+        <li><a href="/pages/cooperation">合作流程</a></li>
+        <li><a href="/pages/about">关于我们</a></li>
+        <li><a href="/pages/jobs">招贤纳士</a></li>
+        <li><a href="/pages/contact">联系我们</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" id="ts-search-input" class="ts-search-input" placeholder="搜索"/>
+        </div>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+  <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Blog Name</title>
   <subtitle>Blog subtitle</subtitle>
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-12-03T08:00:00+08:00</updated>
   <author>
     <name>blog Author</name>
   </author>
-  <entry>
-    <title>环境监控解决方案 - 莲雾科技</title>
-    <link rel="alternate" href="http://blog.url.com/solutions/environment-monitor/"/>
-    <id>http://blog.url.com/solutions/environment-monitor/</id>
-    <published>2014-12-03T08:00:00+08:00</published>
-    <updated>2014-12-03T20:55:42+08:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;h1 id="section"&gt;环境监控解决方案&lt;/h1&gt;
-
-&lt;h2 id="introduction"&gt;方案简介Introduction&lt;/h2&gt;
-
-&lt;p&gt;智能环境监控方案，主要由传感器、多功能采集器、控制器、智能网关等设备及后台环境监控管理系统组成。安装在现场的传感器可自动采集环境参数（如：空气温湿度、光照等），多功能采集器通过无线自组织网络将环境采集数据和设备状态数据汇集到智能 网关。智能网关安装有独立的应用软件，该应用软件可以实时查看当前现场环境情况；可以配置客户端，实现无线采集设备节点的自由配置；也可以直接设置智能网 关相应的工作参数。同时，智能网关根据多功能采集器获取的环境数据以及用户配置的相关阀值，通过控制器连接配电柜，进而控制现场设备。
-智能网关通过3G/GPRS网络（或以太网）将采集数据上传至远程服务器，在服务器端进行数据存储、图形化显示、数据挖掘分析，用户可以远程监控被测区域 的环境情况，并结合相应的专家系统辅助决策。另外，通过远程服务器的环境监控管理系统还可以直接设置智能网关参数，控制相关网络设备，使用户有多重环境监 控操作接口。&lt;/p&gt;
-
-&lt;h2 id="function"&gt;方案功能Function&lt;/h2&gt;
-
-&lt;p&gt;方案采用无线传感器技术、以太网技术实现无线自组织网络，部署在现场的多功能采集器、控制器和智能网关通过无线自组织网络进行数据传输。智能网关与后台环境监控管理系统通过3G/GPRS网络（或以太网）进行数据传输。&lt;/p&gt;
-
-&lt;p&gt;（1）莲雾环境监控解决方案的整体结构如下图所示:&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="整体架构" src="../../images/environment_img1-d7760d6f.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;（2）莲雾环境监控解决方案的部署结构如下图所示：&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt="部署结构" src="../../images/environment_img2-dfb5dac4.png" /&gt;&lt;/p&gt;
-
-&lt;h2 id="advantage"&gt;方案优势Advantage&lt;/h2&gt;
-
-&lt;h2 id="characteristics"&gt;方案特点Characteristics&lt;/h2&gt;
-
-&lt;p&gt;*设备多功能化：智能网关除具备通信功能外，还具有可独立运行的应用软件；多功能采集器除具备数据采集功能外，还可通过配置实现中继功能；&lt;/p&gt;
-
-&lt;p&gt;*网络流量小：按照1个智能网关、50个无线采集设备、每个采集设备挂载5路传感器计算，一个月流量约为50M；&lt;/p&gt;
-
-&lt;p&gt;*方案实施灵活：设备间的通信主要依靠无线数据传输，不需要在具体的生产环境中进行布线，能随时调整设备安装位置，提高了方案实施的灵活性；&lt;/p&gt;
-
-&lt;p&gt;*监控方式多样化：为用户提供不同的使用接口，用户可以现场通过智能网关应用软件调节设备，也可以通过后台环境监控管理系统进行调节；&lt;/p&gt;
-
-&lt;p&gt;*抗干扰性强：采用Zigbee协议实现无线自组织网络，提高了设备信号的抗干扰性，能适应潮湿环境和电网波动；&lt;/p&gt;
-
-&lt;p&gt;*实时性强：对采集设备进行周期性的数据反馈，保证智能网关与服务器上的数据为最新的数据，提高了实时性。&lt;/p&gt;
-
-&lt;h2 id="application-cases"&gt;应用案例Application cases&lt;/h2&gt;
-
-&lt;p&gt;环境监控解决方案是物联网技术在环境监控领域中的一个应用，可以根据不同的行业客户需求进行定制设计。本解决方案可广泛应用于生产车间、农业科研温室、大型农业示范园、食品加工、冷链运输、污水处理、海洋渔业等涉及环境监控的行业和企业。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>能源监测解决方案 - 莲雾科技</title>
-    <link rel="alternate" href="http://blog.url.com/solutions/energy-monitor/"/>
-    <id>http://blog.url.com/solutions/energy-monitor/</id>
-    <published>2014-12-02T08:00:00+08:00</published>
-    <updated>2014-12-03T20:55:42+08:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;h1 id="section"&gt;企业能源监测管理系统方案&lt;/h1&gt;
-
-&lt;h2 id="section-1"&gt;一、前言&lt;/h2&gt;
-
-&lt;p&gt;    企业能源管理让企业认识到数据资料对于企业管理的重要性，并采用各种仪器、仪表对能源数据进行采集，并派专人对仪器、仪表、与采集的数据进行现场维护、抄 取，并逐级统计、上报，建立数据库对数据进行管理。这样的缺点是手工操作效率低，不能满足大范围的数据采集需要。因此，建立企业能源管理系统，是深化企业 管理、维护企业的正常运营具有重要意义。能源在线监测系统可以对远程现场的运行设备进行监视、计量，便于及时了解远端设备能耗及生产运行情况，降低故障 率，缩短检修时间，调节系统工况。&lt;/p&gt;
-
-&lt;h2 id="section-2"&gt;二、系统方案&lt;/h2&gt;
-
-&lt;p&gt;    能源集中监测管理系统是一个综合现代化通信、计算机和自动控制技术的全分布式计算机监测系统，采用B/S（浏览器/服务器）和C/S（客户机/服 务器）模式，设置和设计遵循实用性、集成性、可扩展性、专业性、开放性、安全性、和经济性的原则。该系统主要功能有以下两部分，一、给企业内网web发布 实时能源数据，并生成各种报表、曲线、图表等。为各个相关部门，企业决策层提供科学的依据。二、采集系统主要由中心数据采集服务器，下位机采集终端（包括 电度表、水表、气表、流量积算仪等）两部分组成，服务器通过RS485通讯模块同下位机相联，获取实时数据，并将采集到的数据实时存储到关系型数据库中， 而关系型数据库不仅用来储存满足历史查询、结算、核算等应用需求的数据，也可大大提高数据库的服务效能。&lt;/p&gt;
-
-&lt;p&gt;    数据采集服务器每间隔一段时间自动采集各监测点的实时数据，实时监测系统中各主要设备的当前工作状态，热量及水、电、气等主要能源的消耗量。同时 监控中心通过对传输回来的数据进行比较分析，可以诊断主要设备的在线状态，为系统设备的运行调度，系统维护提供直观明确的指导，有效降低系统能耗，实现系 统节能目标，使运行管理水平提高、能耗大幅度下降，并在发生异常或事故时能够及时报警。该系统的应用对提高供热能源综合利用率、降低运行成本、保障安全经 济运行有着重要的作用。 系统结构如图:&lt;/p&gt;
-
-&lt;p&gt;调度室数据中心由防火墙、数据中心服务器、工作站组成。数据中心服务器通过接收来自各计量仪表的数据，并对数据进行存储、历史趋势分析、报表打印等。&lt;/p&gt;
-
-&lt;h2 id="section-3"&gt;三、系统软件&lt;/h2&gt;
-&lt;p&gt;    能源监测管理系统是专为生产型企业计量、监测、分析能耗情况，从而制定节能措施而专门设计 定制的智能管理系统。系统基于C/S结构，便捷的人机对话窗口、智能化图表输出。上位机数据采集软件实现数据的读取，对数据进行优化处理，实现各种能源介质的综合在线监测, 将这些数据进行显示、作图、制表、存档、能耗量和费用计算、比较，数据打印成单、表格，并能提供能耗分析报告。局域网中的计算机不需要安装客户端软件，只需通过浏览器就可以查看上位机数据服务器采集的实时数据、历史数据，曲线图、柱状图图形显示，统计报表。&lt;/p&gt;
-
-&lt;p&gt;. 远程抄表实时显示根据需要可实时读取水表、气表、汽表、电表、热能表所显示的数据，可根据用户需要，每间隔一定时间将现场生产数据存储到数据库中，可保存十年以上。例如对电表读取的数据包括电压、电流、功率因数，总（峰、平、谷）正向有功、电量累计，还可以对电表数据进行运算处理，根据互感器变比等参数计算用户实际电能消耗。&lt;/p&gt;
-
-&lt;p&gt;. 历史数据查询功能 　 形成历史数据库可方便进行历史数据的查询。&lt;/p&gt;
-
-&lt;p&gt;. 系统根据采集的数据可生成日负荷曲线、日负荷柱状图、月柱状图。&lt;/p&gt;
-
-&lt;p&gt;. 网络化设计，支持远程访问功能；&lt;/p&gt;
-
-&lt;p&gt;. 实时数据库与关系型数据库的结合使用保证了数据的稳定性和安全性。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>设备联网解决方案 - 莲雾科技</title>
-    <link rel="alternate" href="http://blog.url.com/solutions/device-access/"/>
-    <id>http://blog.url.com/solutions/device-access/</id>
-    <published>2014-12-01T08:00:00+08:00</published>
-    <updated>2014-12-03T20:55:42+08:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;h1 id="section"&gt;设备联网解决方案&lt;/h1&gt;
-
-&lt;p&gt;面向所有生产制造企业，实现生产车间所有设备仪器的联网与集中管理、生产信息的自动采集与数据传输、设备运行状态及生产过程远程监控与自动控制。帮助企业实现精益生产、数字化生产、可视化车间、看板管理、智能制造等管理模式。&lt;/p&gt;
-
-&lt;h2 id="section-1"&gt;一、 当前设备管理存在的问题：&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;设备相对独立，不能集中管控，必须到现场查看设备状态、采集和输入相关数据；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;设备运行状态与相关信息、生产状态与相关信息不能及时反馈到管理层；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;生产任务完成情况不能及时反馈到ERP、MES系统或管理层；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;生产设备不能及时准确得到相关下达的任务信息及设计、工艺和程序数据；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;设备异常、缺料等问题不能及时反馈和处理，耽误交期和降低了设备利用率；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;生产信息不透明、不及时、不准确、不完整，难制订科学合理的生产计划；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;设备生产效率、人员生产效率、设备生产能力和饱和度不能及时统计分析；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;数控加工设备的数控程序传输、存储、版本管理存在严重的效率和质量隐患；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;数控程序与刀具清单、工艺卡和零件图纸独立保存，关联性差，既难找又费时；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;人工输入各种生产数据，设备运行数据，即费工又易错，还具有滞后性；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;手工统计各种生产报表，设备报表，数据繁多，计算复杂，容易出错。&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id="section-2"&gt;二、系统功能：&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;一台服务器，可以同时监控全部数控设备或测量仪器的运行数据；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;自动采集和传输各种设备的生产信息；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;兼容各种品牌的数控设备和控制系统；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;通过任何联网的PC机或LED看板，实时形象地监控如：机床开机还是关机中；机床处于加工、停机还是故障中；什么产品正在生产中；加工开始时间、加工结束时间；故障开始时间、故障解除时间；已经生产了多少件工件；单个工件的平均加工时间、最长时间、最短时间等等生产和设备信息；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;远程传输和管理加工程序，确保程序版本正确性和与相关刀具、工艺图纸的关联性；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;远程控制各种数控设备的运行开启，并对相关异常进行报.警提醒；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;异常时系统自动发送消息给相关负责人；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;自动生成各种统计分析报表或图表，便于实时监控、分析与考核管理；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;提供与各种品牌的ERP、MES软件或硬件接口。&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id="section-3"&gt;三、 企业预期所实现的收益：&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;生产数据、设备运行数据实时采集准确率100%；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;节省人工录入和统计分析成本10倍以上；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;提高设备利用率35%以上；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;加工程序传输、版本管理效率和质量提高5倍以上；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;生产效率提高25%以上；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;远程监控机床状态：一台计算机可以同时监控所有机床的实时状态，如开机状态、运行状态、故障状态等信息；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;实时获知加工信息：实时获知每台机床的工件生产数量、在线加工状态等；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;准确分析机床故障：实时显示故障机床信息，包括历史故障查询、故障时间分布、故障概率分布等，从而全面提升机床故障分析与预测能力；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;快速定位生产瓶颈：通过对所有机床的实时监控与数据采集，可快速、及时地发现机床停机等问题；通过真实的海量数据分析功能，可快速定位生产瓶颈，并找出最合理的应对措施，从而最大程度地提升机床的有效利用率。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;帮助企业做好设备的维护管理，包括设备事后维护，预防维护，改善维修，维修预防，还有生产维护，即全面服务于TPM全员生产维修和TPEM全员生产设备管理。&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id="section-4"&gt;四、 系统网络拓扑图：&lt;/h2&gt;
-
-&lt;h2 id="section-5"&gt;五、 数据采集相关说明：&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;自动采集：是将企业数控设备的生产及工作状态通过相关硬件和软件的配合自动采集到管理系统的数据库中，可以分为通信采集和加装硬件进行采集两种方式。&lt;/p&gt;
-
-    &lt;ol&gt;
-      &lt;li&gt;
-        &lt;p&gt;增加硬件设备：是对于无法通过通讯方式采集数据的设备，可以采取加装硬件传感器的方式进行数据采集。通过增加硬件设备可采集的数据：开机/关机、产品数量、设备工作状态（故障、运行等）、温度、压力、湿度、电流、电压等等。传感器/采集器可以将电信号转换成数字信号发送给PLC系统进行数据的采集及处理。&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;通信采集：从PLC直接读取机床加工日志文件的形式，采集各种所需的机床数据，可以获得机床工作记录，包括程序名称、加工时间、进给、转速、刀具信息等各种需要的机床参数。然后再通过PLC的以太网络接口转换信息给数据库。这里PLC相当于一个网关，或者实现协议转换的工作。&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;手工采集：手工采集时对于非数字式设备或仪器采集数据的方式。目前主要分手工方式和手持终端方式两种。&lt;/p&gt;
-
-    &lt;ol&gt;
-      &lt;li&gt;
-        &lt;p&gt;手工方式：操作员或编程员在控制面板上，输入特定的触发程序，就可得到机床端的任意信息，从而实现机床的监控。 触发程序可根据用户的需要，不受数量限制地进行自定义。&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;手持终端方式：利用专用的手持终端或按钮操作箱，根据机床运行以及生产的状态利用该终端输入信息，并通过以太网络传递给数据库，该种方式可以用在没有数控系统的老旧设备上。&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id="section-6"&gt;六、 主要模块功能简述：&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;机构人员管理：
-维护企业组织机构名称，班组名称，人员姓名及相关权限。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;设备信息维护：
-维护现场设备名称及IP地址、生产状态（红灯代表停止生产、绿灯代表正常生产、黄灯代表等待生产）、工作时间段等相关信息。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;生产任务下达：
-下达生产任务，如生产任务号，产品名称及计划生产数量，计划开始生产时间和计划完成时间等生产任务信息。并对生产任务设置完成、暂停或恢复等操作。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;设计工艺管理：
-维护产品要加工生产的零件清单（BOM）、图纸及工艺，以便车间加工生产。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;生产计划管理：
-可以手动或自动对要加工生产的零件各工序进行调度排产，进行各个设备的产能平衡分析，生成工序加工任务单并下达工序或设备机台的加工生产任务。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;生产数据采集：
-对于数字式设备，自动采集相关设备和生产数据，对于非数字式设备，或某些生产信息，需要通过PC终端、安灯盒或手持终端人工录入相关生产数据和质量数据。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;设备状态监控：
-实时查看所有设备的运行状态和相关生产数据。对于某些关键点，可进行提醒设置，一旦有异常，系统会自动发送消息给相关负责人员。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;车间看板管理：
-各种生产数据、设备信息、异常信息均可实时生成管理看板，并通过车间LED显示屏、液晶显示器、PC机等显示终端滚动显示或实时显示。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;统计分析报表：
-可实时查询各种统计分析报表或图表。如每台设备负荷率、嫁动率和每天的生产量；每个班组或每个人员的生产量；某时间段质量异常分类分析、处理相应速度分析等。&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-</content>
-  </entry>
 </feed>
+
+</div>
+<script>
+  var option = {
+    engineKey: 'bc6d9bf3b2bf456e14f9'
+  };
+  (function(w,d,t,u,n,s,e){
+    s = d.createElement(t);
+    s.src = u;
+    s.async = 1;
+    w[n] = function(r){
+      w[n].opts = r;
+    };
+    e = d.getElementsByTagName(t)[0];
+    e.parentNode.insertBefore(s, e);
+  })(window,document,'script','//tinysou-cdn.b0.upaiyun.com/ts.js','_ts');
+  _ts(option);
+</script>
+</body>
+</html>
