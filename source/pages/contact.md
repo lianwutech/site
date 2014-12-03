@@ -3,6 +3,8 @@ layout: layouts/layout.erb
 title: 联系我们
 ---
 
+## 联系方式
+
 联系人：邓先生
 
 电子邮箱：daviddeng@lianwutech.com
