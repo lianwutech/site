@@ -7,7 +7,7 @@ title: 联系我们
 
 联系人：邓先生
 
-电子邮箱：daviddeng@lianwutech.com
+电子邮箱：<daviddeng@lianwutech.com>
 
 联系电话：023-63054386
 

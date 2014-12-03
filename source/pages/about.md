@@ -19,4 +19,4 @@ title: 关于我们
 
 ## 合作伙伴
 
-![捷思创新](icreator.png)
+![捷思创新](icreator.png)<http://www.jesxtech.cn/>
