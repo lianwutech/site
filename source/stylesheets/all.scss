@@ -6,6 +6,11 @@ body {
   font-family: "方正圆体" helvetica sans-serif;
 }
 
+#carousel {
+  max-height: 400px;
+  overflow: hidden;
+}
+
 .navbar-brand {
   width: 180px;
   text-indent: -9999px;
@@ -37,5 +42,30 @@ h1 {
   }
   a:hover {
     color: #666;
+  }
+}
+
+.solution-brief {
+  @include make-md-column(4);
+  padding: 0 20px;
+  &:nth-child(3n+1) {
+    clear: both;
+  }
+  .brief {
+    overflow: hidden;
+    height: 10em;
+  }
+}
+
+#footer {
+  height: 80px;
+  padding: 20px 0;
+  background-color: #f8f8f8;
+  a {
+    text-decoration: none;
+    color: #777;
+    &:hover {
+      color: #666;
+    }
   }
 }
