@@ -51,6 +51,15 @@ h1 {
   &:nth-child(3n+1) {
     clear: both;
   }
+  .left-img {
+    @include make-md-column(4);
+  }
+  .content {
+    @include make-md-column(8);
+    h4 {
+      margin-top: 0;
+    }
+  }
   .brief {
     overflow: hidden;
     height: 10em;
